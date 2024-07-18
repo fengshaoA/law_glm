@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="10">
+            <item index="0" class="java.lang.String" itemvalue="sse_starlette" />
+            <item index="1" class="java.lang.String" itemvalue="fastapi" />
+            <item index="2" class="java.lang.String" itemvalue="gradio" />
+            <item index="3" class="java.lang.String" itemvalue="cpm_kernels" />
+            <item index="4" class="java.lang.String" itemvalue="accelerate" />
+            <item index="5" class="java.lang.String" itemvalue="sse-starlette" />
+            <item index="6" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="7" class="java.lang.String" itemvalue="loguru" />
+            <item index="8" class="java.lang.String" itemvalue="pprint" />
+            <item index="9" class="java.lang.String" itemvalue="zhipuai" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pandas" />
+          <option value="assign.rule_assign.bus_assign" />
+          <option value="pyscipopt.Model" />
+          <option value="pyscipopt.quicksum" />
+          <option value="bus_driver_schedule.schedule.assign.GA_for_schedule.mutation_action.drnp" />
+          <option value="bus_driver_schedule.schedule.assign.GA_v2.main.greed_assign_task_v2_judge" />
+          <option value="bus_driver_schedule.schedule.assign.GA_v2.main.get_single_individual_cross_result" />
+          <option value="bus_driver_schedule.schedule.assign.GA_for_all_schema.mutation_action.block_duty_num" />
+          <option value="main_auxiliary_schedule.main.cross_action" />
+          <option value="main_auxiliary_schedule.main.fitness_function" />
+          <option value="main_auxiliary_schedule.main.init_population" />
+          <option value="main_auxiliary_schedule.main.mutation_action" />
+          <option value="main_auxiliary_schedule.init_population.tooplot_ganttchart" />
+          <option value="timetable_schedule_simulation_opt" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
