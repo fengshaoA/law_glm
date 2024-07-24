@@ -10,8 +10,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12ee7908-34d7-4621-bd7b-659dbbbf0580" name="Default Changelist" comment="">
+    <list default="true" id="12ee7908-34d7-4621-bd7b-659dbbbf0580" name="Default Changelist" comment="codeupdate">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classify_query.py" beforeDir="false" afterPath="$PROJECT_DIR$/classify_query.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema/legal_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/schema/legal_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema/weather_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/schema/weather_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool_register/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool_register/interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool_register/tool_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/tool_register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/address_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/address_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/company_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/company_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/consumption_restriction_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/consumption_restriction_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/court_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/court_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/lawfirm_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/lawfirm_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/lawsuit_document_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/lawsuit_document_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/legal_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/legal_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/weather_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/weather_tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +55,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/result" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.inform_query_api_B">
-    <configuration name="answer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="law_glm_baseline_" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tensorflow\law_glm\data\result" />
+      <recent name="D:\tensorflow\law_glm\data\question" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="classify_query" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="law_glm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -56,29 +79,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/answer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="court_service_s1_b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="law_glm_baseline_" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/service" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/service/court_service_s1_b.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classify_query.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,20 +110,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="judge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="law_glm_baseline_" />
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="law_glm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/llm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/llm/judge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,20 +132,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="law_service_s1_b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="law_glm_baseline_" />
+    <configuration name="tool_register (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="law_glm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/service" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/register" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/service/law_service_s1_b.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/register/tool_register.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tool_register" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="law_glm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tool_register" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tool_register/tool_register.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.classify_query" />
+        <item itemvalue="Python.tool_register (1)" />
+        <item itemvalue="Python.tool_register" />
         <item itemvalue="Python.inform_query_api_B" />
-        <item itemvalue="Python.answer" />
-        <item itemvalue="Python.judge" />
-        <item itemvalue="Python.court_service_s1_b" />
-        <item itemvalue="Python.law_service_s1_b" />
       </list>
     </recent_temporary>
   </component>
@@ -186,8 +209,19 @@
       <workItem from="1721004138088" duration="16601000" />
       <workItem from="1721049145412" duration="4183000" />
       <workItem from="1721093531081" duration="1751000" />
-      <workItem from="1721296889280" duration="4596000" />
+      <workItem from="1721296889280" duration="9002000" />
+      <workItem from="1721438186462" duration="739000" />
+      <workItem from="1721608685497" duration="13000" />
+      <workItem from="1721608715047" duration="18325000" />
     </task>
+    <task id="LOCAL-00001" summary="codeupdate">
+      <created>1721308630375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721308630376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,66 +239,71 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="codeupdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="codeupdate" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="740" y="-805" key="FileChooserDialogImpl" timestamp="1721013723534">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state x="740" y="-805" key="FileChooserDialogImpl/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721013723534" />
     <state x="493" y="180" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1720705045559" />
-    <state width="1237" height="121" key="GridCell.Tab.0.bottom" timestamp="1721049092028">
+    <state width="1237" height="189" key="GridCell.Tab.0.bottom" timestamp="1721825792581">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721006393940" />
-    <state width="1237" height="121" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1721049092028" />
-    <state width="1237" height="121" key="GridCell.Tab.0.center" timestamp="1721049092028">
+    <state width="1877" height="286" key="GridCell.Tab.0.bottom/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721815342685" />
+    <state width="1237" height="189" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1721825792581" />
+    <state width="1237" height="189" key="GridCell.Tab.0.center" timestamp="1721825792581">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721006393940" />
-    <state width="1237" height="121" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1721049092028" />
-    <state width="1237" height="121" key="GridCell.Tab.0.left" timestamp="1721049092028">
+    <state width="1877" height="286" key="GridCell.Tab.0.center/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721815342685" />
+    <state width="1237" height="189" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1721825792581" />
+    <state width="1237" height="189" key="GridCell.Tab.0.left" timestamp="1721825792581">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721006393939" />
-    <state width="1237" height="121" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1721049092028" />
-    <state width="1237" height="121" key="GridCell.Tab.0.right" timestamp="1721049092028">
+    <state width="1877" height="286" key="GridCell.Tab.0.left/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721815342685" />
+    <state width="1237" height="189" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1721825792581" />
+    <state width="1237" height="189" key="GridCell.Tab.0.right" timestamp="1721825792581">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721006393940" />
-    <state width="1237" height="121" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1721049092028" />
-    <state width="1237" height="60" key="GridCell.Tab.1.bottom" timestamp="1720869018198">
+    <state width="1877" height="286" key="GridCell.Tab.0.right/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721815342685" />
+    <state width="1237" height="189" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1721825792581" />
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1721825491477">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.1.bottom/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1720679991447" />
-    <state width="1237" height="60" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1720869018198" />
-    <state width="1237" height="60" key="GridCell.Tab.1.center" timestamp="1720869018197">
+    <state width="1877" height="406" key="GridCell.Tab.1.bottom/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721813315625" />
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1721825491477" />
+    <state width="1237" height="231" key="GridCell.Tab.1.center" timestamp="1721825491477">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.1.center/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1720679991447" />
-    <state width="1237" height="60" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1720869018197" />
-    <state width="1237" height="60" key="GridCell.Tab.1.left" timestamp="1720869018197">
+    <state width="1877" height="406" key="GridCell.Tab.1.center/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721813315625" />
+    <state width="1237" height="231" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1721825491477" />
+    <state width="1237" height="231" key="GridCell.Tab.1.left" timestamp="1721825491477">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.1.left/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1720679991447" />
-    <state width="1237" height="60" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1720869018197" />
-    <state width="1237" height="60" key="GridCell.Tab.1.right" timestamp="1720869018197">
+    <state width="1877" height="406" key="GridCell.Tab.1.left/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721813315624" />
+    <state width="1237" height="231" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1721825491477" />
+    <state width="1237" height="231" key="GridCell.Tab.1.right" timestamp="1721825491477">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.1.right/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1720679991447" />
-    <state width="1237" height="60" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1720869018197" />
+    <state width="1877" height="406" key="GridCell.Tab.1.right/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721813315625" />
+    <state width="1237" height="231" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1721825491477" />
     <state x="213" y="-1080" key="SettingsEditor" timestamp="1721297325141">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state x="213" y="-1080" key="SettingsEditor/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721297325140" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1719732652789" />
-    <state x="552" y="-827" key="Vcs.Push.Dialog.v2" timestamp="1721095193674">
-      <screen x="0" y="-1080" width="1920" height="1040" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1721310505455">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="552" y="-827" key="Vcs.Push.Dialog.v2/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721095193674" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1720680030275">
-      <screen x="0" y="-1080" width="1920" height="1040" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1721310505455" />
+    <state width="646" height="346" key="XDebugger.FullValuePopup" timestamp="1721804032564">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1720680030275" />
-    <state width="646" height="346" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1720447295520" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1721793071116" />
+    <state width="646" height="346" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1721804032564" />
     <state x="662" y="-962" width="596" height="804" key="find.popup" timestamp="1720583752590">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
@@ -748,15 +787,77 @@
           <line>33</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/get_system_prompt.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/get_system_prompt.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/get_system_prompt.py</url>
+          <line>173</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/law_glm$answer.coverage" NAME="answer Coverage Results" MODIFIED="1720679983226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/law_glm$tool_register__1_.coverage" NAME="tool_register (1) Coverage Results" MODIFIED="1721803497152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/register" />
     <SUITE FILE_PATH="coverage/law_glm$judge.coverage" NAME="judge Coverage Results" MODIFIED="1720679031160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/llm" />
     <SUITE FILE_PATH="coverage/law_glm_baseline_$company_info_service_s1_b.coverage" NAME="company_info_service_s1_b Coverage Results" MODIFIED="1720534288339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/service" />
     <SUITE FILE_PATH="coverage/law_glm_baseline_$answer.coverage" NAME="answer Coverage Results" MODIFIED="1720591190174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/law_glm_baseline_$address_info_service_s1_b.coverage" NAME="address_info_service_s1_b Coverage Results" MODIFIED="1720579994218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/service" />
+    <SUITE FILE_PATH="coverage/law_glm$run.coverage" NAME="run Coverage Results" MODIFIED="1721825792572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/law_glm_baseline_$inform_query_api_B.coverage" NAME="inform_query_api_B Coverage Results" MODIFIED="1720576958627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apis" />
     <SUITE FILE_PATH="coverage/law_glm_baseline_$court_service_s1_b.coverage" NAME="court_service_s1_b Coverage Results" MODIFIED="1720599510550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/service" />
     <SUITE FILE_PATH="coverage/law_glm_baseline_$sub_company_info_service_s1_b.coverage" NAME="sub_company_info_service_s1_b Coverage Results" MODIFIED="1720496555275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/service" />
@@ -765,6 +866,8 @@
     <SUITE FILE_PATH="coverage/law_glm_baseline_$lawfirm_service_s1_b.coverage" NAME="lawfirm_service_s1_b Coverage Results" MODIFIED="1720515575834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/service" />
     <SUITE FILE_PATH="coverage/law_glm_baseline_$law_service_s1_b.coverage" NAME="law_service_s1_b Coverage Results" MODIFIED="1720582871206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/service" />
     <SUITE FILE_PATH="coverage/law_glm_baseline_$weather_service_s1_b.coverage" NAME="weather_service_s1_b Coverage Results" MODIFIED="1720262521793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/service" />
+    <SUITE FILE_PATH="coverage/law_glm$classify_query.coverage" NAME="classify_query Coverage Results" MODIFIED="1721821437120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/law_glm_baseline_$utils.coverage" NAME="utils Coverage Results" MODIFIED="1720349829096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/law_glm$tool_register.coverage" NAME="tool_register Coverage Results" MODIFIED="1721803413505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool_register" />
   </component>
 </project>

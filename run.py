@@ -1,19 +1,15 @@
-from tools_s1_b import get_tools, dispatch_tool
-from utils import multi_thread_excute
+# from register.tool_register import get_tools, dispatch_tool
+from utils.get_system_prompt import get_system_prompt
+from utils.utils import multi_thread_excute
 from zhipuai import ZhipuAI
 from pprint import pprint
 import json
 import logging
 import time
-from schema import database_schema
+# from tools.address_tools import get_tools,dispatch_tool
+# from schema import database_schema
 
 client = ZhipuAI(api_key="")  # 填写你的API Key
-
-system_prompt = """你是一位金融法律专家，你的任务是根据用户给出的query，调用给出的工具接口，获得用户想要查询的答案。
-在回答问题之前，你首先需要对分析进行分析并分类，分析问题是公司相关的，法律相关的，法院相关的地址相关的还是天气相关的问题，之后再从工具库中找出对应的工具进行调用。
-如果用户的query包含多个子query，你能将用户query进行准确拆解，得到多个子query，并能保证多个子query合起来与原query意思一样。
-所提供的工具接口可以查询12张数据表的信息，数据表的schema如下:
-""" + database_schema
 
 
 def call_glm(messages, model="glm-4",
@@ -31,7 +27,10 @@ def call_glm(messages, model="glm-4",
     return response
 
 
-def run(query, tools):
+def run(query):
+    system_prompt,get_tools,dispatch_tool = get_system_prompt(query)
+    tools = get_tools()
+    pprint(tools)
     tokens_count = 0
     messages = [
         {"role": "system", "content": system_prompt},
@@ -79,18 +78,18 @@ def run(query, tools):
 
 
 def run_all():
-    tools = get_tools()
+    tools = []
     start = time.time()
     # pprint(tools)
 
     # 读取lines
-    lines = [i for i in open("question.json", "r", encoding="utf-8").readlines() if i.strip()]
+    lines = [i for i in open("D:\\tensorflow\\law_glm\\data\\question\\test.json", "r", encoding="utf-8").readlines() if i.strip()]
 
     def task(line):
         line = json.loads(line)
         query = line["question"]
 
-        tokens_count, messages, response = run(query, tools)
+        tokens_count, messages, response = run(query)
         ans = messages[-1]["content"]
         return tokens_count, {
             "id": line["id"],
@@ -102,7 +101,7 @@ def run_all():
     all_tokens_count = sum([i[0] for i in all_results])
     print("使用tokens总数：", all_tokens_count, "用时", time.time() - start, "s")
     all_results_json = sorted([i[1] for i in all_results], key=lambda x: x["id"])
-    open("sub.json", "w+", encoding="utf-8").write(
+    open("D:\\tensorflow\\law_glm\\data\\result\\test_b.json", "w+", encoding="utf-8").write(
         "\n".join([json.dumps(line, ensure_ascii=False) for line in all_results_json]))
 
 

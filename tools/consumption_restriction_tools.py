@@ -1,5 +1,5 @@
 import requests
-from tool_register.tool_register import register_tool, get_tools, dispatch_tool
+from register.tool_register import register_tool, get_tools, dispatch_tool
 from typing import get_origin, Annotated, Union, List, Optional
 from schema.consumption_restriction_info import ConsumptionRestrictionInfo,ConsumptionRestrictionInfoEnum
 

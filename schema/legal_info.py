@@ -26,7 +26,7 @@ LegalDocumentEnum = build_enum_class(LegalDoc, exclude_enums=["案号"])
 
 def build_enum_list(enum_class): return [enum.value for enum in enum_class]
 
-lawfirm_schema = f"""
+legal_schema = f"""
 公司法律文书表（LegalDocument）有下列字段：
 {build_enum_list(LegalDocumentEnum)}
 ------------------------------------------------

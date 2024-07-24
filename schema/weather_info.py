@@ -19,7 +19,7 @@ WeatherInfoEnum = build_enum_class(WeatherInfo,exclude_enums=['省市日期'])
 
 def build_enum_list(enum_class): return [enum.value for enum in enum_class]
 
-lawfirm_schema = f"""
+weather_schema = f"""
 根据日期及省份城市查询天气相关信息(WeatherInfo)有下列字段：
 {build_enum_list(WeatherInfoEnum)}
 ------------------------------------------------
